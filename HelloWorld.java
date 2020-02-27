@@ -16,6 +16,7 @@ g.setColor(Color.black);
 g.setFont(f);
 drawCenteredString("18130166", d.width, d.height, g);
 g.drawRect(0,0,d.width-1,d.height-1);
+g.drawRect(0,0,d.width-1,d.height-1); 
 }
 
 public void drawCenteredString(String s, int w, int h, Graphics g) { 
